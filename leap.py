@@ -1,6 +1,6 @@
 """leap.py
 
-Copyright (c) 2021 Thierry P.G. DECKER
+Copyright (c) 2021 Mathieu Barbe-gayet
 All Rights Reserved.
 Released under the MIT license
 
