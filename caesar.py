@@ -38,7 +38,7 @@ def encrypt_v1(user_string, shift):
     Will give us a string composed with the n+x of each character from the original string,
     according to the caesar algorithm
     """
-    ascii_list = string.ascii_lowercase
+    ascii_list = string.ascii_letters
     cyphered_string = []
     #
     # For each character from the user's string
@@ -68,7 +68,7 @@ def encrypt_v2(user_string, shift):
     Will give us a string composed with the n+x of each character from the original string.
     This version 2 is basically a one-liner version of the version 1 above.
     """
-    ascii_list = string.ascii_lowercase
+    ascii_list = string.ascii_letters
     cyphered_string = []
     for character in user_string:
         #
